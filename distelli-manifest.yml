@@ -32,7 +32,7 @@ simonanderson/PHPApacheUbuntu:
     - HTML_DIR: "/var/www/html/"
 
   PkgInclude:
-    - webapp.php
+    - '*'
 
   PostInstall:
     - echo "Beginning PostInstall"
