@@ -25,7 +25,6 @@ simonanderson/PHPApacheUbuntu:
 
   Start:
   - sudo rm -rf /var/www/html/*
-  - sudo mv index.php /var/www/html/
   - sudo service apache2 restart 
 
   Env:
