@@ -36,4 +36,4 @@ simonanderson/PHPApacheUbuntu:
 
   PostInstall:
     - echo "Beginning PostInstall"
-    - sudo cp -f ./webapp.php /var/www/html/
+    - sudo cp -f /distelli/envs/Test/webapp.php /var/www/html/
