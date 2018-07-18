@@ -20,7 +20,7 @@ simonanderson/PHPApacheUbuntu:
   - 'if [ -a /usr/bin/php ]; then'
   -     echo "PHP is already installed"
   - else
-  -     sudo apt-get install php5 libapache2-mod-php5 -y
+  -     sudo apt-get install php libapache2-mod-php -y
   - fi
 
   Start:
